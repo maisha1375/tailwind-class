@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Challenge: Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-white shadow-lg">
+      <div
+        class="mx-w-6xl mx-auto px-4 py-4 flex justify-between align-items-center"
+      >
+        <h1 class="text-lg font-semibold">
+          Jane Doe <span class="text-gray-500 font-normal">(profile name)</span>
+        </h1>
+        <!--Menu Item-->
+        <nav class="space-x-6 text-gray-600">
+          <a href="#" class="hover:text-black">Home</a>
+          <a href="#" class="hover:text-black">About</a>
+          <a href="#" class="hover:text-black">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="flex items-center justify-center min-h-[80vh] px-4">
+      <div class="bg-white rounded-xl shadow-md p-10 mx-w-2xl w-full">
+        <h2 class="text-3xl font-bold mb-4">Frontend Developer & Designer</h2>
+        <p text-gray-600 mb-5>
+          I build elegant, responsive web interfaces and user-focused designs.
+        </p>
+
+        <h3 class="font-semibold">Featured Projects</h3>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-gray-100 p-5 text-center hover:shadow-md transition">
+            <div></div>
+            <h4 class="font-semibold">Project A</h4>
+            <p class="text-sm text-gray-500">
+              A brief description of the work.
+            </p>
+          </div>
+
+          <div
+            class="bg-gray-100 p-5 rounded-lg text-center hover:shadow-md transition"
+          >
+            <div class="text-3xl mb-2"></div>
+            <h4 class="font-semibold">Project B</h4>
+            <p text-sm text-gray-500>A brief description of the work.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
