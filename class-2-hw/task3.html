@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Advanced Tailwind - Challenge</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-slate-900 text-white p-8">
+    <main class="max-w-6xl mx-auto">
+      <header class="flex  flex-col md:flex-row justify-between items-start md:items-start mb-12 gap-4 ">
+        <div>
+          <h2 class="text-3xl font-bold">Analytics Dashboard</h2>
+          <p class="text-slate-400">Welcome back, Admin.</p>
+        </div>
+        <button class="bg-linear-to-r from-brand to-orange-600 rounded-lg px-6 py-2 font-bold shadow-lg shadow-brand/20 hover:brightness-110 transition coursor-pointer">Download Report</button>
+      </header>
+
+      <section class="grid md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-slate-800 p-6 rounded-2xl border border-slate-600 hover:bg-slate-750 transition mb-6 ">
+          <span class="text-slate-400 text-sm uppercase tracking-wider">Total Revenue</span>
+          <h3 class="text-4xl  font-black my-2">$45,231.89</h3>
+          <span class="text-emerald-400 text-sm font-medium">+20% from last month</span>
+        </div>
+        <div class="bg-slate-800 p-6 rounded-2xl border border-slate-600 hover:bg-slate-750 transition mb-6">
+          <span class="text-slate-400 text-sm uppercase tracking-wider">Active Users</span>
+          <h3 class="text-4xl  font-black my-2">2,350</h3>
+          <span class="text-emerald-400 text-sm font-medium">+180 new today</span>
+        </div>
+        <div class="bg-slate-800 p-6 rounded-2xl border border-slate-600  mb-6">
+          <span class="text-slate-400 text-sm uppercase tracking-wider">Server Uptime</span>
+          <h3 class="text-4xl  font-black my-2">99.9%</h3>
+          <span class="text-blue-400 text-sm font-medium italic">Stable</span>
+        </div>
+      </section>
+
+      <section class="grid md:grid-cols-2 gap-8">
+        <div class=" rounded-3xl overflow-hidden group"><img
+          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+           class="aspect-video object-cover w-full group-hover:scale-110 transition duration-500"
+          alt="Chart"
+        /></div>
+        <div class=" rounded-3xl overflow-hidden group" ><img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+          class="aspect-video object-cover w-full group-hover:scale-110 transition duration-500"
+          alt="Data"
+        /></div>
+      </section>
+    </main>
+  </body>
+</html>  
+</body>
+</html>
